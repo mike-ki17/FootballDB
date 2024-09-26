@@ -7,10 +7,10 @@ fake = Faker()
 
 # Conectar a la base de datos
 db_connection = mysql.connector.connect(
-    host='18.216.46.100',
-    user='saitama',
-    password='Un_osito_dormilon_le_regal3',
-    database='futballDB'
+    host='xxxxxxx',
+    user='xxxxxxx',
+    password='xxxxxxxxx',
+    database='xxxxxxxx'
 )
 
 
@@ -72,10 +72,3 @@ cursor.close()
 db_connection.close()
 
 
-
-# db_connection = mysql.connector.connect(
-#     host='18.216.46.100',
-#     user='saitama',
-#     password='Un_osito_dormilon_le_regal3',
-#     database='futballDB'
-# )
